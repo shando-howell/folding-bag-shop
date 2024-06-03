@@ -1,3 +1,26 @@
 .nav-bar {
     border: lightgray solid 1px; 
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
 }
+
+.nav-bar-search {
+    padding: 4px;
+    margin-right: 6px;
+}
+
+.nav-bar-logo {
+    color: orange;
+    margin-right: 2%;
+}
+
+.nav-bar-button {
+    margin-right: 56%;
+}
+
+.nav-bar-sign-in {
+    margin-right: 8px;
+    color: orange;
+}
+

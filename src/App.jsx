@@ -1,21 +1,24 @@
 // Component imports
+import NavBar from './components/NavBar/NavBar'
 import FeatureImage from './components/FeatureImage/FeatureImage'
 import ProductDetails from './components/ProductDetails/ProductDetails'
 import GalleryPreview from './components/GalleryPreview/GalleryPreview'
+import PurchaseCard from './components/PurchaseCard/PurchaseCard'
 
 // Stylesheet imports
 import './App.css'
-
-import NavBar from './components/NavBar/NavBar'
 
 function App() {
   
   return (
     <>
       <NavBar/>
-      <GalleryPreview />
-      <FeatureImage/>
-      <ProductDetails/>
+      <div className="highlights">
+        <GalleryPreview />
+        <FeatureImage/>
+        <ProductDetails/>
+        <PurchaseCard/>
+      </div>
     </>
   )
 }
